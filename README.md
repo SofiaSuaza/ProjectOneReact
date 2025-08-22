@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Project One React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Este proyecto es una aplicación web desarrollada con React, creada por Sofía Suaza.  
+El objetivo es mostrar una base sencilla de cómo iniciar con React y organizar un proyecto utilizando componentes y estilos propios.
 
-## Available Scripts
+## Tecnologías Utilizadas
+- React.js  
+- Create React App  
+- React Router DOM  
+- CSS  
 
-In the project directory, you can run:
+## Prerrequisitos
+- Node.js (versión 14 o superior)  
+- npm (incluido con Node.js)  
 
-### `npm start`
+## Instalación
+Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona el repositorio
+   ```bash
+   git clone <url-del-repositorio>
+Navega al directorio del proyecto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copiar
+Editar
+cd project-one-react
+Instala las dependencias
 
-### `npm test`
+bash
+Copiar
+Editar
+npm install
+Inicia el servidor de desarrollo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copiar
+Editar
+npm start
+Estructura del Proyecto
+pgsql
+Copiar
+Editar
+project-one-react/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── public/
+└── package.json
+Scripts Disponibles
+npm start → Inicia el servidor de desarrollo
 
-### `npm run build`
+npm test → Ejecuta las pruebas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run build → Construye la aplicación para producción
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run eject → Expone las configuraciones de Create React App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Estilos
+El proyecto utiliza CSS moderno con:
 
-### `npm run eject`
+Variables CSS personalizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Flexbox y Grid
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Diseño responsive
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Animaciones y transiciones
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contribución
+Las contribuciones son bienvenidas. Para hacerlo:
 
-## Learn More
+Haz un Fork del repositorio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Crea una rama para tu característica
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copiar
+Editar
+git checkout -b feature/NuevaCaracteristica
+Haz commit de tus cambios
 
-### Code Splitting
+bash
+Copiar
+Editar
+git commit -m "Agregada NuevaCaracteristica"
+Push a tu rama
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copiar
+Editar
+git push origin feature/NuevaCaracteristica
+Abre un Pull Request
 
-### Analyzing the Bundle Size
+Autora
+Sofía Suaza
+GitHub: @SofiaSuaza
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Versión
+1.0.0
 
-### Making a Progressive Web App
+Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE en el repositorio para más detalles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Copyright (c) 2025 Sofía Suaza
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado con dedicación por Sofia Suaza
+his section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
