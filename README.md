@@ -108,4 +108,3 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE en el repo
 Copyright (c) 2025 Sofía Suaza
 
 Desarrollado con dedicación por Sofia Suaza
-his section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
